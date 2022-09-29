@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    background-color: black;
+}
+
+.topLeft{
+    color: rgb(7, 250, 217);
+    font-weight: bolder;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.topRight{
+    color: rgb(7, 250, 217);
+    font-weight: bolder;
+    margin-top: 2vh;
+}
+
+li {
+    margin-right: 2vw;
+    display: inline-block;
+}
+
+.topList{
+    color: white;
+}
+
+main{
+    min-height: 70vh;
+}
+
+.middle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.midText{
+    width: 50vw;
+}
+
+.mailText{
+    color: white;
+}
+
+.btn{
+    width: 8vw;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(3, 21, 59);
+}
+
+footer{
+    height: 15vh;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
